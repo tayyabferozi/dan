@@ -5,7 +5,7 @@ const DomainSearch = () => {
     <div className="section-padding text-center" id="domain-search">
       <div className="container-xl">
         <div className="row justify-content-center">
-          <div className="col-lg-8">
+          <div className="col-lg-8 search-container">
             <h2>Build your online business</h2>
             <p className="mb-4">
               Lay a solid foundation for your business with a killer domain

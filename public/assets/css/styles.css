@@ -184,6 +184,7 @@ button {
 
 button,
 .btn {
+  position: relative;
   border: none;
   background-color: transparent;
   padding: 0.5rem 1rem;
@@ -203,11 +204,19 @@ button.btn-outlined,
   line-height: 1.5rem;
 }
 
+button.btn-outlined.with-next,
+.btn.btn-outlined.with-next {
+  padding-right: 4.5rem !important;
+}
+
 button.btn-outlined svg,
 .btn.btn-outlined svg {
+  position: absolute;
+  right: 1.5rem;
   margin-left: 1rem;
-  -webkit-transform: translateY(6px);
-          transform: translateY(6px);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   width: 24px;
   height: 24px;
 }
@@ -252,9 +261,23 @@ button.btn-outlined.primary:hover,
   color: #fff !important;
 }
 
+@media screen and (max-width: 575px) {
+  .search-container {
+    padding: 0;
+  }
+}
+
 .large-search {
   position: relative;
   margin: 3.5rem 1.375rem 0;
+}
+
+@media screen and (max-width: 575px) {
+  .large-search {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100% !important;
+  }
 }
 
 .large-search input {
@@ -265,6 +288,13 @@ button.btn-outlined.primary:hover,
   font-size: 1rem;
   font-weight: 500;
   color: #00112c !important;
+}
+
+@media screen and (max-width: 430px) {
+  .large-search input {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
 }
 
 .large-search .search-btn {
@@ -871,6 +901,16 @@ input:focus {
   fill: #12768c;
 }
 
+#buy-sell-domains {
+  background-color: #f2f3f4;
+}
+
+@media (max-width: 575px) {
+  #buy-sell-domains {
+    padding-top: 3.5rem !important;
+  }
+}
+
 #buy-sell-domains .left,
 #buy-sell-domains .right {
   padding: 0 1.25rem;
@@ -960,7 +1000,7 @@ input:focus {
 }
 
 #footer .social img {
-  width: 40px;
+  width: 30px;
 }
 
 #footer a:hover {

@@ -18,7 +18,10 @@ const Investors = () => {
                 features, selling is easier than ever.
               </p>
 
-              <a className="btn btn-outlined primary lg mt-2" href="#0">
+              <a
+                className="btn btn-outlined primary lg mt-2 with-next"
+                href="#0"
+              >
                 Discover our platform
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

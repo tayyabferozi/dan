@@ -53,7 +53,7 @@ const BuySellDomains = () => {
                   </div>
                 </div>
               </div>
-              <a className="btn btn-outlined primary lg" href="#0">
+              <a className="btn btn-outlined primary lg with-next" href="#0">
                 Get to know us
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
