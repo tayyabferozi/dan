@@ -391,11 +391,6 @@ input:focus {
   }
 }
 
-#navbar .logo {
-  -webkit-filter: invert(100%) grayscale(100%) brightness(200%);
-          filter: invert(100%) grayscale(100%) brightness(200%);
-}
-
 #navbar .logo .logo-main {
   display: block;
   background-size: contain;
@@ -404,7 +399,8 @@ input:focus {
 
 @media screen and (min-width: 801px) {
   #navbar .logo .logo-main {
-    background-image: url("../images/logo-sm.png");
+    background-image: url("../images/logo-1-sm.png");
+    background-repeat: no-repeat;
     width: 2.5rem;
     height: 2.5rem;
     padding: 0;
@@ -413,16 +409,18 @@ input:focus {
 
 @media screen and (min-width: 1200px) {
   #navbar .logo .logo-main {
-    background-image: url("../images/logo.png");
-    width: 10.25rem;
+    background-image: url("../images/logo-1.png");
+    background-repeat: no-repeat;
+    width: 7.25rem;
     height: 2.5rem;
   }
 }
 
 @media screen and (max-width: 800px) {
   #navbar .logo .logo-main {
-    background-image: url("../images/logo.png");
-    width: 10.25rem;
+    background-image: url("../images/logo-1.png");
+    background-repeat: no-repeat;
+    width: 7.25rem;
     height: 2.5rem;
   }
 }
