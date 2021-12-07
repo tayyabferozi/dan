@@ -872,6 +872,15 @@ input {
     color: #fff;
   }
 
+  .social {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 40px;
+    }
+  }
+
   a {
     &:hover {
       color: #38e8b0;

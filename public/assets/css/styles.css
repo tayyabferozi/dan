@@ -950,6 +950,19 @@ input:focus {
   color: #fff;
 }
 
+#footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer .social img {
+  width: 40px;
+}
+
 #footer a:hover {
   color: #38e8b0;
   text-decoration: none;
