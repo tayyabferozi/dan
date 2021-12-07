@@ -91,9 +91,9 @@ const Footer = () => {
               subsidiary. All Rights Reserved.
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 text-center">
             <button>
-              English{" "}
+              English
               <svg
                 version="1.1"
                 id="Capa_1"
